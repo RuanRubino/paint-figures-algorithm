@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(247, 245, 245);
+    margin: 0px;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+#painel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vh;
+
+}
+#screen-draw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vh;
+    background-color: rgb(240, 206, 13);
+}
