@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(247, 245, 245);
     margin: 0px;
@@ -22,4 +23,59 @@ body{
     height: 80vh;
     width: 100vh;
     background-color: rgb(240, 206, 13);
+=======
+:root{
+    --primary-color: beige;
+}
+body{
+    background-color: var(--primary-color);
+    transition: background-color 0.2s ease-in-out;
+    margin: 0px;
+    margin-top: 3%;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: space-around ;
+}
+#painel{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 80vh;
+    width: 100vh;
+
+}
+#screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#screen-draw{
+    flex:1;
+    border: 1px solid black;
+    width: 900px;
+    height: 700px;
+    flex-direction: row;
+    background-color: white;
+}
+
+#close-poli{
+    flex: 1;
+    margin: 7%;
+}
+
+.card{
+    width: 25rem;
+}
+
+#lista-poli{
+    display: grid;
+    overflow: auto;
+    width: 100%;
+>>>>>>> f04e388 (algoritmo de pintura)
 }
